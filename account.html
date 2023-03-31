@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Account</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1>My Account</h1>
+      <nav>
+        <ul>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="abou us.html">About Us</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <h2>Order Statuses</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Order Number</th>
+              <th>Order Status</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>12345</td>
+              <td>Shipped</td>
+            </tr>
+            <tr>
+              <td>67890</td>
+              <td>Processing</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <section>
+        <h2>Order History</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Order Number</th>
+              <th>Order Date</th>
+              <th>Items Purchased</th>
+              <th>Total Cost</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>12345</td>
+              <td>Jan 1, 2023</td>
+              <td>face cream, toner </td>
+              <td>$50.00</td>
+            </tr>
+            <tr>
+              <td>67890</td>
+              <td>Feb 1, 2023</td>
+              <td>face cream</td>
+              <td>$35.00</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <section>
+        <h2>Track Your Shipment</h2>
+        <form>
+          <label for="tracking-number">Enter Your Tracking Number:</label>
+          <input type="text" id="tracking-number" name="tracking-number">
+          <div class="product">
+          <button type="submit">Track</button>
+          </div>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
