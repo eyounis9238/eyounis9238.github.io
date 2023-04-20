@@ -7,23 +7,66 @@
   <body>
     <header>
       <h1>Pure Skin Toner</h1>
-      <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="aboutus.html">About Us</a></li>
-          <li><a href="#">Contact Us</a></li>
-        </ul>
-      </nav>
-    </header>
+      
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="abou us.html">About Us</a></li>
+            <li><a href="account.html">Account</a></li>
+            <li><a href="shop product.html">Shop Our Products</a></li>
+            <li><a href="cart.html">Cart <i class="fa fa-shopping-cart"></i></a></li>
+           
+        
+          </ul>
+        </nav>
+        
+          <div class="logo">
+            <img src="logo.png" alt="My Logo" style="border: none;">
+          </div>
+        </header>
     <main>
       <section>
         <div class="product">
-          <img src="toner.jpeg" alt="Product 2">
-          <h2>Pure Skin toner</h2>
-          <p>Organic toner can help balance and soothe the skin, while providing natural hydration and nourishment without the use of harsh chemicals. </p>
-          <button>Add to Cart</button>
+          <div class="product-image">
+            <img src="toner.jpeg" alt="Product 2">
+          </div>
+          <div class="product-details">
+            <h2><a> $13.99</a></h2>
+            <p>Organic toner can help balance and soothe the skin, while providing natural hydration and nourishment without the use of harsh chemicals.</p>
+            <ul>
+              <li>Contains natural ingredients such as witch hazel and rose water</li>
+              <li>Use twice daily after cleansing for best results</li>
+              <li>Free from parabens and sulfates</li>
+            </ul>
+            <button>Add to Cart</button>
+          </div>
+        </div>
+        <div class="product-reviews">
+          <h3>Customer Reviews</h3>
+          <ul>
+            <li>
+              <p><strong>Rehab Jon:</strong> This toner has made such a difference in my skin! It feels so much smoother and softer, and my complexion is more even. I highly recommend it</p>
+            </li>
+            <li>
+              <p><strong>Lora Smith:</strong> I love how gentle this toner is on my skin, but it still gets the job done. My skin feels cleaner and more refreshed after using it, and I've noticed fewer breakouts</p>
+            </li>
+          </ul>
+          <form>
+            <h4>Leave a Review</h4>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="review">Review:</label>
+            <textarea id="review" name="review" required></textarea>
+            <button type="submit">Submit</button>
+          </form>
         </div>
       </section>
     </main>
+    <footer>
+      <ul>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="#">Privacy & Policy</a></li>
+      </ul>
+    </footer>
   </body>
 </html>
