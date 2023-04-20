@@ -1,6 +1,11 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     background-color:#f6b9a0;
+  }
+
+  @media only screen and (min-width: 768px) {
+  }
+  @media only screen and (max-width: 767px) {
   }
   
   header {
@@ -44,7 +49,7 @@ body {
   }
   
   .product img {
-    width: 50%;
+    width: 100%;
     margin-right: 20px;
     float: left;
     border: 1px solid #205a27;
@@ -75,4 +80,79 @@ body {
   
   .product button:hover {
     background-color: gray;
+  }
+
+  footer {
+    background-color: #f6bca4;
+    color: white;
+    
+    bottom: 0;
+    width: 100%;
+  }
+  
+  footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: center;
+    justify-content: center;
+  }
+  
+  footer ul li {
+    margin: 0 20px;
+  }
+  
+  footer ul li a {
+    color: #205a27;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  footer ul li a:hover {
+    color: gray;
+  }
+  
+  nav ul li a:hover {
+    color: gray;
+  }
+
+  .logo {
+    margin-right: 20px;
+  }
+  .logo img {
+    width: 50%;
+    margin-right: 20px;
+    
+  }
+  .product button {
+    display: block;
+    margin-top: 10px;
+    width: 80px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 25px;
+    background-color: #f38d64;
+    border: none;
+    color: #191717;
+    font-size: 15px;
+    cursor: pointer;
+  }
+   button {
+    display: block;
+    margin-top: 10px;
+    width: 80px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 25px;
+    background-color: #f38d64;
+    border: none;
+    color: #191717;
+    font-size: 15px;
+    cursor: pointer;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 400px;
   }
