@@ -4,7 +4,7 @@
 	<title>About Us</title>
 	<style>
 		body {
-			font-family: Arial, sans-serif;
+			font-family: 'Times New Roman', Times, serif;
 			margin: 0;
 			padding: 0;
             background-color: #fbbca4;
@@ -78,20 +78,73 @@
 				order: -1;
 			}
 		}
+		footer {
+    background-color: #f6bca4;
+    color: white;
+    padding: 20px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: center;
+    justify-content: center;
+  }
+  
+  footer ul li {
+    margin: 0 20px;
+  }
+  
+  footer ul li a {
+    color: #205a27;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  footer ul li a:hover {
+    color: gray;
+  }
+  
+  nav ul li a:hover {
+    color: gray;
+  }
+  img {
+    width: 50%;
+    margin-right: 20px;
+    float: left;
+    border: 1px solid #205a27;
+    box-sizing: border-box;
+  }
+  .logo {
+    margin-right: 20px;
+  }
+  
 	</style>
 </head>
 <body>
     <header>
-        <nav>
-            <ul>
-              <li><a href="index.html">Home</a></li>
-              <li><a href="abou us.html">About Us</a></li>
-              <li><a href="#">Contact Us</a></li>
-            </ul>
-          </nav>
-    </header>
+	<h1>About Us</h1>
+		<nav>
+		  <ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="abou us.html">About Us</a></li>
+			<li><a href="account.html">Account</a></li>
+			<li><a href="shop product.html">Shop Our Products</a></li>
+			<li><a href="cart.html">Cart <i class="fa fa-shopping-cart"></i></a></li>
+		   
+		
+		  </ul>
+		</nav>
+		
+		  <div class="logo">
+			<img src="logo.png" alt="My Logo" style="border: none;">
+		  </div>
+		</header>
 	<div class="container">
-		<h1>About Us</h1>
 		<div class="row">
 			<div class="col">
 				<p>Welcome to our organic skincare brand! We believe that your skin deserves only the best and that's why we use only natural and organic ingredients in our products. Our mission is to provide you with effective skincare solutions that are gentle on your skin and the environment. We're passionate about promoting a healthy and sustainable lifestyle and want to help you achieve beautiful, glowing skin without compromising your values. 
@@ -102,5 +155,11 @@
 			</div>
 		</div>
 	</div>
+	<footer>
+        <ul>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="#">Privacy & Policy</a></li>
+        </ul>
+      </footer>
 </body>
 </html>
